@@ -1,0 +1,38 @@
+# This awk script is meant to streamline and generalize calibrate.awk so that it can be run 
+# on an arbitrary data set and produce equal counts of each class attribute 
+BEGIN{
+FS = ","
+OFS = ","
+eq = 2000;
+}
+
+# Build an array of the data set, counts of classes 
+{
+    counts[$4]++;        # increment the count of current class
+    instances[NR] = $0; # store instance
+    classOf[NR] = $4;     # store class of instance
+}
+
+# Go through instances and print the correct # of that instance based upon its class
+END{
+
+    # build adjustments 
+    for( class in counts ){
+	adjustments[class] = (eq / (counts[class]))
+    }
+
+    # print proper number 
+    for( y in instances ){
+	adj = adjustments[(classOf[y])];
+	
+	if( adj < 1 ){
+	    #suppress
+	    r = rand();    
+	    if( r < adj) print instances[y];
+	    
+	}else{
+	    #duplicate
+	    for(i=0;i<adj;i++) print instances[y];
+	}
+    }
+}

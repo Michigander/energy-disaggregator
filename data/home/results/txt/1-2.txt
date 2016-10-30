@@ -1,0 +1,292 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 1.0 -M 2
+Relation:     week1.train
+Instances:    13960
+Attributes:   4
+              Day
+               Time
+              use [kW]
+              Cluster
+Test mode:user supplied test set: size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+use [kW] <= 3.89063
+|   use [kW] <= 2.10662
+|   |   use [kW] <= 0.427733
+|   |   |    Time <= 45100
+|   |   |   |    Time <= 44100: cluster1 (47.0)
+|   |   |   |    Time > 44100
+|   |   |   |   |   Day <= 0: cluster2 (28.0)
+|   |   |   |   |   Day > 0
+|   |   |   |   |   |   use [kW] <= 0.418817: cluster2 (49.0)
+|   |   |   |   |   |   use [kW] > 0.418817
+|   |   |   |   |   |   |    Time <= 44500: cluster1 (3.0)
+|   |   |   |   |   |   |    Time > 44500: cluster2 (21.0)
+|   |   |    Time > 45100: cluster1 (76.0)
+|   |   use [kW] > 0.427733
+|   |   |   use [kW] <= 2.00923
+|   |   |   |   use [kW] <= 0.870567
+|   |   |   |   |   use [kW] <= 0.780933
+|   |   |   |   |   |    Time <= 45400
+|   |   |   |   |   |   |    Time <= 45300: cluster1 (59.0)
+|   |   |   |   |   |   |    Time > 45300: cluster2 (7.0)
+|   |   |   |   |   |    Time > 45400: cluster1 (411.0)
+|   |   |   |   |   use [kW] > 0.780933
+|   |   |   |   |   |   use [kW] <= 0.87
+|   |   |   |   |   |   |   use [kW] <= 0.849583
+|   |   |   |   |   |   |   |   use [kW] <= 0.84595
+|   |   |   |   |   |   |   |   |    Time <= 132900
+|   |   |   |   |   |   |   |   |   |   Day <= 0: cluster1 (4.0)
+|   |   |   |   |   |   |   |   |   |   Day > 0
+|   |   |   |   |   |   |   |   |   |   |    Time <= 65000: cluster1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |    Time > 65000
+|   |   |   |   |   |   |   |   |   |   |   |    Time <= 70900: cluster2 (35.0)
+|   |   |   |   |   |   |   |   |   |   |   |    Time > 70900
+|   |   |   |   |   |   |   |   |   |   |   |   |    Time <= 115900: cluster1 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |    Time > 115900: cluster2 (7.0)
+|   |   |   |   |   |   |   |   |    Time > 132900: cluster1 (35.0)
+|   |   |   |   |   |   |   |   use [kW] > 0.84595: cluster2 (7.0)
+|   |   |   |   |   |   |   use [kW] > 0.849583: cluster1 (20.0)
+|   |   |   |   |   |   use [kW] > 0.87: cluster2 (7.0)
+|   |   |   |   use [kW] > 0.870567
+|   |   |   |   |   use [kW] <= 1.58162: cluster1 (1086.0)
+|   |   |   |   |   use [kW] > 1.58162
+|   |   |   |   |   |   use [kW] <= 1.58475: cluster2 (7.0)
+|   |   |   |   |   |   use [kW] > 1.58475
+|   |   |   |   |   |   |    Time <= 135900
+|   |   |   |   |   |   |   |    Time <= 124400
+|   |   |   |   |   |   |   |   |   use [kW] <= 1.76323: cluster1 (53.0)
+|   |   |   |   |   |   |   |   |   use [kW] > 1.76323
+|   |   |   |   |   |   |   |   |   |   use [kW] <= 1.7733: cluster2 (7.0)
+|   |   |   |   |   |   |   |   |   |   use [kW] > 1.7733: cluster1 (27.0)
+|   |   |   |   |   |   |   |    Time > 124400: cluster2 (7.0)
+|   |   |   |   |   |   |    Time > 135900: cluster1 (139.0)
+|   |   |   use [kW] > 2.00923
+|   |   |   |    Time <= 85900: cluster1 (8.0)
+|   |   |   |    Time > 85900
+|   |   |   |   |    Time <= 135900: cluster2 (14.0)
+|   |   |   |   |    Time > 135900
+|   |   |   |   |   |   Day <= 0: cluster1 (6.0)
+|   |   |   |   |   |   Day > 0
+|   |   |   |   |   |   |    Time <= 194400: cluster1 (3.0)
+|   |   |   |   |   |   |    Time > 194400: cluster2 (14.0)
+|   use [kW] > 2.10662
+|   |   use [kW] <= 2.83792
+|   |   |    Time <= 144600
+|   |   |   |    Time <= 72400: cluster1 (18.0)
+|   |   |   |    Time > 72400
+|   |   |   |   |    Time <= 80100
+|   |   |   |   |   |   Day <= 0: cluster1 (3.0)
+|   |   |   |   |   |   Day > 0: cluster2 (17.0/3.0)
+|   |   |   |   |    Time > 80100
+|   |   |   |   |   |   Day <= 0: cluster2 (350.0)
+|   |   |   |   |   |   Day > 0
+|   |   |   |   |   |   |    Time <= 93700: cluster2 (224.0)
+|   |   |   |   |   |   |    Time > 93700
+|   |   |   |   |   |   |   |    Time <= 124600: cluster1 (9.0)
+|   |   |   |   |   |   |   |    Time > 124600: cluster2 (7.0)
+|   |   |    Time > 144600
+|   |   |   |    Time <= 144800: cluster4 (67.0)
+|   |   |   |    Time > 144800
+|   |   |   |   |   use [kW] <= 2.23668
+|   |   |   |   |   |    Time <= 162400: cluster2 (14.0)
+|   |   |   |   |   |    Time > 162400: cluster1 (12.0)
+|   |   |   |   |   use [kW] > 2.23668
+|   |   |   |   |   |    Time <= 161300: cluster2 (84.0)
+|   |   |   |   |   |    Time > 161300
+|   |   |   |   |   |   |    Time <= 195900: cluster1 (13.0)
+|   |   |   |   |   |   |    Time > 195900
+|   |   |   |   |   |   |   |   Day <= 0: cluster1 (5.0)
+|   |   |   |   |   |   |   |   Day > 0
+|   |   |   |   |   |   |   |   |    Time <= 235600: cluster2 (140.0)
+|   |   |   |   |   |   |   |   |    Time > 235600: cluster1 (2.0)
+|   |   use [kW] > 2.83792
+|   |   |    Time <= 225900
+|   |   |   |   use [kW] <= 3.52395
+|   |   |   |   |    Time <= 101700
+|   |   |   |   |   |    Time <= 94800
+|   |   |   |   |   |   |    Time <= 91900
+|   |   |   |   |   |   |   |    Time <= 40900: cluster1 (2.0)
+|   |   |   |   |   |   |   |    Time > 40900
+|   |   |   |   |   |   |   |   |   Day <= 0: cluster2 (42.0)
+|   |   |   |   |   |   |   |   |   Day > 0
+|   |   |   |   |   |   |   |   |   |   use [kW] <= 3.42758: cluster2 (56.0)
+|   |   |   |   |   |   |   |   |   |   use [kW] > 3.42758
+|   |   |   |   |   |   |   |   |   |   |    Time <= 73800: cluster2 (7.0)
+|   |   |   |   |   |   |   |   |   |   |    Time > 73800: cluster1 (3.0)
+|   |   |   |   |   |   |    Time > 91900
+|   |   |   |   |   |   |   |    Time <= 94000
+|   |   |   |   |   |   |   |   |    Time <= 93600: cluster4 (67.0)
+|   |   |   |   |   |   |   |   |    Time > 93600: cluster2 (7.0)
+|   |   |   |   |   |   |   |    Time > 94000: cluster4 (134.0)
+|   |   |   |   |   |    Time > 94800
+|   |   |   |   |   |   |   Day <= 0: cluster2 (168.0)
+|   |   |   |   |   |   |   Day > 0: cluster1 (3.0)
+|   |   |   |   |    Time > 101700
+|   |   |   |   |   |    Time <= 145900: cluster4 (470.0/1.0)
+|   |   |   |   |   |    Time > 145900
+|   |   |   |   |   |   |    Time <= 185900
+|   |   |   |   |   |   |   |    Time <= 165900: cluster2 (63.0)
+|   |   |   |   |   |   |   |    Time > 165900: cluster1 (8.0)
+|   |   |   |   |   |   |    Time > 185900: cluster4 (201.0)
+|   |   |   |   use [kW] > 3.52395
+|   |   |   |   |   use [kW] <= 3.73707
+|   |   |   |   |   |    Time <= 105900
+|   |   |   |   |   |   |   use [kW] <= 3.59783
+|   |   |   |   |   |   |   |    Time <= 95900
+|   |   |   |   |   |   |   |   |   use [kW] <= 3.58145: cluster2 (21.0)
+|   |   |   |   |   |   |   |   |   use [kW] > 3.58145: cluster4 (67.0)
+|   |   |   |   |   |   |   |    Time > 95900: cluster4 (134.0)
+|   |   |   |   |   |   |   use [kW] > 3.59783: cluster2 (42.0)
+|   |   |   |   |   |    Time > 105900
+|   |   |   |   |   |   |    Time <= 131600: cluster5 (354.0)
+|   |   |   |   |   |   |    Time > 131600: cluster2 (71.0/1.0)
+|   |   |   |   |   use [kW] > 3.73707
+|   |   |   |   |   |   Day <= 0
+|   |   |   |   |   |   |    Time <= 155900: cluster2 (49.0)
+|   |   |   |   |   |   |    Time > 155900
+|   |   |   |   |   |   |   |    Time <= 161500: cluster4 (134.0)
+|   |   |   |   |   |   |   |    Time > 161500: cluster2 (7.0)
+|   |   |   |   |   |   Day > 0: cluster4 (202.0/1.0)
+|   |   |    Time > 225900: cluster2 (213.0/3.0)
+use [kW] > 3.89063
+|   use [kW] <= 5.92257
+|   |    Time <= 95900
+|   |   |   use [kW] <= 5.68075
+|   |   |   |   use [kW] <= 5.1167
+|   |   |   |   |    Time <= 85900
+|   |   |   |   |   |    Time <= 72500
+|   |   |   |   |   |   |    Time <= 71700: cluster4 (67.0)
+|   |   |   |   |   |   |    Time > 71700: cluster6 (111.0)
+|   |   |   |   |   |    Time > 72500
+|   |   |   |   |   |   |   use [kW] <= 4.30443
+|   |   |   |   |   |   |   |   Day <= 0: cluster2 (7.0)
+|   |   |   |   |   |   |   |   Day > 0
+|   |   |   |   |   |   |   |   |    Time <= 73000: cluster2 (7.0)
+|   |   |   |   |   |   |   |   |    Time > 73000: cluster4 (134.0)
+|   |   |   |   |   |   |   use [kW] > 4.30443
+|   |   |   |   |   |   |   |   use [kW] <= 4.64728: cluster5 (118.0)
+|   |   |   |   |   |   |   |   use [kW] > 4.64728
+|   |   |   |   |   |   |   |   |   Day <= 0: cluster4 (67.0)
+|   |   |   |   |   |   |   |   |   Day > 0: cluster2 (7.0)
+|   |   |   |   |    Time > 85900
+|   |   |   |   |   |    Time <= 94700
+|   |   |   |   |   |   |   use [kW] <= 4.11395
+|   |   |   |   |   |   |   |    Time <= 94200: cluster6 (111.0)
+|   |   |   |   |   |   |   |    Time > 94200: cluster2 (7.0)
+|   |   |   |   |   |   |   use [kW] > 4.11395
+|   |   |   |   |   |   |   |    Time <= 93900: cluster7 (182.0)
+|   |   |   |   |   |   |   |    Time > 93900
+|   |   |   |   |   |   |   |   |    Time <= 94300: cluster4 (67.0)
+|   |   |   |   |   |   |   |   |    Time > 94300: cluster7 (182.0)
+|   |   |   |   |   |    Time > 94700
+|   |   |   |   |   |   |   use [kW] <= 4.16867: cluster4 (67.0)
+|   |   |   |   |   |   |   use [kW] > 4.16867: cluster6 (333.0)
+|   |   |   |   use [kW] > 5.1167
+|   |   |   |   |   use [kW] <= 5.66465
+|   |   |   |   |   |    Time <= 94400
+|   |   |   |   |   |   |    Time <= 73200: cluster6 (333.0)
+|   |   |   |   |   |   |    Time > 73200
+|   |   |   |   |   |   |   |   Day <= 0: cluster6 (222.0)
+|   |   |   |   |   |   |   |   Day > 0: cluster3 (38.0)
+|   |   |   |   |   |    Time > 94400
+|   |   |   |   |   |   |    Time <= 95000: cluster5 (118.0)
+|   |   |   |   |   |   |    Time > 95000: cluster6 (111.0)
+|   |   |   |   |   use [kW] > 5.66465: cluster4 (67.0)
+|   |   |   use [kW] > 5.68075
+|   |   |   |   Day <= 0: cluster3 (19.0)
+|   |   |   |   Day > 0: cluster7 (182.0)
+|   |    Time > 95900
+|   |   |    Time <= 233400
+|   |   |   |   use [kW] <= 5.21162
+|   |   |   |   |   use [kW] <= 4.10168
+|   |   |   |   |   |   Day <= 0: cluster2 (21.0)
+|   |   |   |   |   |   Day > 0: cluster5 (354.0)
+|   |   |   |   |   use [kW] > 4.10168
+|   |   |   |   |   |    Time <= 123500
+|   |   |   |   |   |   |    Time <= 102600: cluster5 (236.0)
+|   |   |   |   |   |   |    Time > 102600: cluster6 (222.0)
+|   |   |   |   |   |    Time > 123500
+|   |   |   |   |   |   |    Time <= 230700
+|   |   |   |   |   |   |   |   use [kW] <= 4.80518
+|   |   |   |   |   |   |   |   |   Day <= 0
+|   |   |   |   |   |   |   |   |   |    Time <= 145900: cluster7 (364.0)
+|   |   |   |   |   |   |   |   |   |    Time > 145900
+|   |   |   |   |   |   |   |   |   |   |    Time <= 155900: cluster2 (7.0)
+|   |   |   |   |   |   |   |   |   |   |    Time > 155900: cluster4 (67.0)
+|   |   |   |   |   |   |   |   |   Day > 0: cluster7 (729.0/1.0)
+|   |   |   |   |   |   |   |   use [kW] > 4.80518
+|   |   |   |   |   |   |   |   |    Time <= 155700
+|   |   |   |   |   |   |   |   |   |    Time <= 145900: cluster3 (38.0)
+|   |   |   |   |   |   |   |   |   |    Time > 145900: cluster7 (182.0)
+|   |   |   |   |   |   |   |   |    Time > 155700
+|   |   |   |   |   |   |   |   |   |   Day <= 0: cluster6 (222.0)
+|   |   |   |   |   |   |   |   |   |   Day > 0: cluster3 (57.0)
+|   |   |   |   |   |   |    Time > 230700
+|   |   |   |   |   |   |   |    Time <= 231400: cluster5 (118.0)
+|   |   |   |   |   |   |   |    Time > 231400: cluster6 (111.0)
+|   |   |   |   use [kW] > 5.21162
+|   |   |   |   |   Day <= 0
+|   |   |   |   |   |    Time <= 151800
+|   |   |   |   |   |   |    Time <= 100900: cluster5 (118.0)
+|   |   |   |   |   |   |    Time > 100900: cluster3 (95.0)
+|   |   |   |   |   |    Time > 151800: cluster5 (472.0)
+|   |   |   |   |   Day > 0
+|   |   |   |   |   |   use [kW] <= 5.28515: cluster5 (118.0)
+|   |   |   |   |   |   use [kW] > 5.28515: cluster3 (190.0)
+|   |   |    Time > 233400
+|   |   |   |    Time <= 233700: cluster6 (222.0)
+|   |   |   |    Time > 233700: cluster2 (70.0)
+|   use [kW] > 5.92257
+|   |   use [kW] <= 6.14062
+|   |   |   use [kW] <= 6.12595: cluster3 (361.0)
+|   |   |   use [kW] > 6.12595: cluster7 (182.0)
+|   |   use [kW] > 6.14062: cluster3 (1159.0)
+
+Number of Leaves  : 	117
+
+Size of the tree : 	233
+
+
+Time taken to build model: 3.18 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances        9372               92.9946 %
+Incorrectly Classified Instances       706                7.0054 %
+Kappa statistic                          0.2281
+Mean absolute error                      0.02  
+Root mean squared error                  0.1414
+Relative absolute error                  8.2217 %
+Root relative squared error             40.6537 %
+Total Number of Instances            10078     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.965     0.612      0.972     0.965     0.968      0.675    cluster1
+                 0.12      0.029      0.142     0.12      0.13       0.545    cluster2
+                 1         0.001      0.675     1         0.806      0.999    cluster3
+                 0         0.008      0         0         0          0.496    cluster4
+                 0         0.003      0         0         0          0.498    cluster5
+                 0         0          0         0         0          0.5      cluster6
+                 0         0.002      0         0         0          0.499    cluster7
+Weighted Avg.    0.93      0.586      0.937     0.93      0.933      0.67 
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g   <-- classified as
+ 9298  284    4   42    2    0   10 |    a = cluster1
+  268   47    0   39   30    3    5 |    b = cluster2
+    0    0   27    0    0    0    0 |    c = cluster3
+    0    0    0    0    1    0    4 |    d = cluster4
+    0    0    5    0    0    0    3 |    e = cluster5
+    0    1    3    0    1    0    0 |    f = cluster6
+    0    0    1    0    0    0    0 |    g = cluster7
+

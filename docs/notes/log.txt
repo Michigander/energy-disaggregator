@@ -1,0 +1,76 @@
+// these are working notes on the progress of Pecan. 
+
+6/27 10:10PM : > moving to an class based recursive execution 
+     	       > classes: Hierarchical_Disaggregator. Node. DataSet.
+	       > objects: pecan. <core, layer1.nodes, layer2.nodes, ... >, <core.sets, layer1.sets>.
+
+	       > Hierarchical_Disaggregator:
+	       _ methods:
+
+			initialize(String csv_Train, String csv_Test)
+			setClusterer()
+			convertToArff(Striing csv_infile, String arff_outfile)
+			runFilter()
+			run()
+	       > Node:
+	       _ methods:
+
+			build() 
+			getClassifier()
+			evaluate() 
+			review()
+
+	       > DataSet:
+	       _ methods:
+
+			getInstances()
+			trim() 
+
+6/28 1:57 PM : > task today is to complete routine to construct a fully trained 
+     	         hierarchical classifier from a single training file 
+     	       
+	       > a single origin file makes this process one of GROWTH 
+	       
+	       > such growth need not end, but perhaps be logistic, or dynamic in the 
+	       	 same way that our own brain grows and exhibits neuro-plasticity 
+		 
+	       > 1. growth routine (recursive)
+	         2. testing - instance routing 
+
+	       > is this a swarm intelligent network? 
+	       If so, it would carry heavy weighting of individual influences. 
+	       This is not prototypical, but perhaps not negative. 	       
+	       > Such a "heavy weighting" is the result of being a TREE 
+	       > Perhaps at a later state the disaggregator will handle more complex branching/be a network  
+
+	       > there are a variety of interesting ways to visualize the net and the parameters. 
+	       Visualization may be important to understanding problem areas  
+
+	       > emphasis seem to be shifting to the Node from the H_D
+
+	       > what if the end of the tree is an ANN designed to detect only 1 cluster 
+7/3 4:21 PM :  > class: confusion_mx
+    	       > gives: similarity(Vector<String> classes);
+	                   
+7/7/15 3:49 PM : > The important facet of a hierarchical disaggregator, or a hierarchy of trees is the ENTROPY which 
+       	       	   _ changes at deeper levels of the tree. 
+		   > we reduce entropy as we descend, but each level specializes in a smaller subset of the data and must be 
+		   _ weighted accordingly 
+		   > defining that weight function is the problem. At this point:
+		   
+		   WEIGHT EQUATION:
+		   OVERALL_PROBABILITY = (%DATA * LOCAL_PROBABILITY) 
+		   = (likelihood of instance occuring by node's rules)*(likelihood it is class X)
+
+		   > additionally we must be concerned with the choice of the Data for each node 
+		   1. Get Classified as instance X 
+		   2. Go to the Nodes which are most often confused as X:
+		   Are you sure the instance is not class Y? 
+		   Because class Y's are often wrongfully called class X. 
+		   
+7/9/15 11:16 AM : > The scheme is a bit clearer now 
+       	     	  _ Classify an instance: determine if it is more likely a class in the imposter group 
+7/10/15 `	  > to_do: 
+		  _ Make sure global distribution is initialized to the root's local distribution 
+		  _ Make sure distribution is decided via proper recursion Confidence(A) = node[x]:c(A)*w(A) + C
+		  _ 

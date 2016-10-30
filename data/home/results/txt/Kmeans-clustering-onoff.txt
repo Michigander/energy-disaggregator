@@ -1,0 +1,100 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 20 -A "weka.core.EuclideanDistance -R first-last" -I 1000 -S 10
+Relation:     mainK-timed-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R27-weka.filters.unsupervised.attribute.Remove-R5
+Instances:    60479
+Attributes:   25
+              03:OfficeOutlets* [kVA]
+              04:LivingRoomOutlets* [kVA]
+              05:GuestBathOutlets* [kVA]
+              06:MasterBathOutlets* [kVA]
+              07:LivingRoomPatioLights* [kVA]
+              08:GuestBathHallLights* [kVA]
+              09:DiningRoomOutlets* [kVA]
+              10:OutsideOutlets* [kVA]
+              11:CellarLights* [kVA]
+              14:WashingMachine* [kVA]
+              16:DisposalDishwasher* [kVA]
+              17:Microwave* [kVA]
+              18:KitchenLights* [kVA]
+              19:BedroomOutlets* [kVA]
+              20:BedroomLights* [kVA]
+              21:MasterOutlets* [kVA]
+              22:MasterLights* [kVA]
+              24:CounterOutlets1* [kVA]
+              25:CounterOutlets2* [kVA]
+              26:KitchenOutlets* [kVA]
+Ignored:
+              dow 
+               phase 
+              Day
+               Time
+              use [kW]
+Test mode:evaluate on training data
+
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 5
+Within cluster sum of squared errors: 31825.0
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                               Cluster#
+Attribute                          Full Data          0          1          2          3          4          5          6          7          8          9         10         11         12         13         14         15         16         17         18         19
+                                     (60479)     (4388)     (7726)     (2938)      (507)     (1730)      (619)     (5683)     (1176)    (14848)      (553)     (3109)     (9353)       (70)     (4147)     (1000)     (1021)      (270)      (757)       (85)      (499)
+========================================================================================================================================================================================================================================================================
+03:OfficeOutlets* [kVA]                    0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0
+04:LivingRoomOutlets* [kVA]                0          1          1          1          1          0          1          1          1          0          1          1          0          0          0          0          1          1          0          0          1
+05:GuestBathOutlets* [kVA]                 0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0
+06:MasterBathOutlets* [kVA]                0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0
+07:LivingRoomPatioLights* [kVA]            0          0          0          1          0          0          0          0          1          0          0          0          0          0          0          0          0          1          0          0          0
+08:GuestBathHallLights* [kVA]              0          0          0          0          1          0          0          0          0          0          0          0          0          1          0          0          0          1          0          1          0
+09:DiningRoomOutlets* [kVA]                0          0          0          0          0          1          1          0          0          0          0          0          0          0          0          1          0          1          0          0          1
+10:OutsideOutlets* [kVA]                   0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0
+11:CellarLights* [kVA]                     0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          1          0
+14:WashingMachine* [kVA]                   0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          1
+16:DisposalDishwasher* [kVA]               0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          1          0          0
+17:Microwave* [kVA]                        0          0          0          0          0          0          0          0          0          0          0          0          0          1          0          0          0          0          0          0          0
+18:KitchenLights* [kVA]                    0          0          0          1          0          0          0          1          1          0          0          0          0          1          0          0          1          0          0          1          0
+19:BedroomOutlets* [kVA]                   1          0          1          1          0          1          1          1          0          1          1          0          0          1          0          0          0          1          1          0          1
+20:BedroomLights* [kVA]                    0          0          0          0          0          0          1          0          0          0          1          0          0          1          0          0          0          0          0          1          0
+21:MasterOutlets* [kVA]                    1          0          1          1          1          1          1          1          0          1          1          1          0          1          1          1          0          1          1          1          1
+22:MasterLights* [kVA]                     0          0          0          0          0          0          0          0          0          0          1          0          0          1          0          0          0          0          0          0          0
+24:CounterOutlets1* [kVA]                  0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0
+25:CounterOutlets2* [kVA]                  0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0
+26:KitchenOutlets* [kVA]                   0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0
+
+
+
+
+Time taken to build model (full training data) : 1.46 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+ 0       4388 (  7%)
+ 1       7726 ( 13%)
+ 2       2938 (  5%)
+ 3        507 (  1%)
+ 4       1730 (  3%)
+ 5        619 (  1%)
+ 6       5683 (  9%)
+ 7       1176 (  2%)
+ 8      14848 ( 25%)
+ 9        553 (  1%)
+10       3109 (  5%)
+11       9353 ( 15%)
+12         70 (  0%)
+13       4147 (  7%)
+14       1000 (  2%)
+15       1021 (  2%)
+16        270 (  0%)
+17        757 (  1%)
+18         85 (  0%)
+19        499 (  1%)
+

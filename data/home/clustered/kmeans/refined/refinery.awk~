@@ -1,0 +1,36 @@
+# This is an overall refinement algorithm, designed to:
+# Take a full, clustered dataset and return 5 training sets and 5 test sets
+
+# Steps:
+# 1. Read clustered set into an array || 2. Modify/Remove attributes of the set (use,day,time) || 3. Split total into 6 weeks || 4. Build Training set for 1-5 
+# 5. Build Test set for 2-6
+
+
+################### SETUP ################################
+BEGIN{
+FS = ","
+OFS = ","
+
+# file locations
+for(i=2; i<7; i++ ) testFile["week" i] == "test"i".csv"
+for(j=1; j<6; j++ ) testFile["week" j] == "train"j".csv"
+}
+
+################ BUILD DATA ######################################
+# build the full dataset array & other data arrays used in modification
+{
+full[NR] = $0
+stamp[NR] = $;
+time[NR] = $;
+}
+
+################# PROCESS ###########################################
+END{
+# split into weeks
+
+# build training set for 1-5 
+
+# build testing set for 2-6
+
+}
+################## FUNCTIONS ####################################

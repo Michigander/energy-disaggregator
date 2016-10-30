@@ -1,0 +1,27 @@
+# match the date and time of an instance in order to add proper time
+BEGIN{
+FS = ","
+OFS = ","
+}
+# store first file
+FNR == NR{
+    stamp1[FNR] = $1;
+    use1[FNR] = $2;
+}
+# store second file
+FNR != NR{
+    if(FNR<2){ header = $0 }else
+    stamp2[FNR] = $5;  
+    total[FNR] = $0
+}
+# write with proper use
+END{
+    print "refinedUse , "header 
+    for( x in stamp1 ){
+
+	    print "data at " x "is " stamp1[x]			
+	    print "data at " x "is " stamp2[x] 
+	    print " -------------------------------------------------"
+	
+    }
+}

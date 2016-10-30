@@ -1,0 +1,48 @@
+#This is a program to take an attribute's raw wattage and replace it with 
+#an On/Off binary value
+BEGIN{
+#
+    FS = ","
+    OFS = ","
+
+# Set circuit cutoff
+    for(i=7;i<28;i++){
+	if(i==7) cutoffs[i] = .08;
+	if(i==8) cutoffs[i] = .1;
+	if(i==9) cutoffs[i] = .1;
+	if(i==10) cutoffs[i] = .5;
+	if(i==11) cutoffs[i] = .1;
+	if(i==12) cutoffs[i] = .025;
+	if(i==13)  cutoffs[i] = .25;
+	if(i==14)  cutoffs[i] = .1;
+	if(i==15)  cutoffs[i] = .025;
+	if(i==16)  cutoffs[i] = .05;
+	if(i==17) cutoffs[i] = .025;
+	if(i==18) cutoffs[i] = .05;
+	if(i==19) cutoffs[i] = .05;
+	if(i==20) cutoffs[i] = .1;   
+	if(i==21) cutoffs[i] = .025;
+	if(i==22) cutoffs[i] = .025;
+	if(i==23) cutoffs[i] = .05;
+	if(i==24) cutoffs[i] = .15;
+	if(i==25) cutoffs[i] = .25;
+	if(i==26) cutoffs[i] = .025;
+	if(i==27) cutoffs[i] = .01;
+    }
+
+}
+#Header remains the same
+NR<2{print$0}
+
+NR>1{
+#Transform raw wattages into on or off
+    for(x in cutoffs){
+	if( $x > cutoffs[x]){
+	    $x = 1;
+	}else 
+	    $x = 0;
+    }
+#Print all attributes
+   print $0
+
+}

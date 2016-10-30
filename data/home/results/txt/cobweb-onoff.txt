@@ -1,0 +1,3113 @@
+=== Run information ===
+
+Scheme:weka.clusterers.MakeDensityBasedClusterer -M 1.0E-6 -W weka.clusterers.Cobweb -- -A 0.425 -C 0.0028209479177387815 -S 42
+Relation:     total.onoff-weka.filters.unsupervised.attribute.Remove-R28_clustered-weka.filters.unsupervised.attribute.Remove-R29-weka.filters.unsupervised.attribute.Remove-R17
+Instances:    60479
+Attributes:   27
+              02:Dryer* [kVA]
+              03:OfficeOutlets* [kVA]
+              04:LivingRoomOutlets* [kVA]
+              05:GuestBathOutlets* [kVA]
+              06:MasterBathOutlets* [kVA]
+              07:LivingRoomPatioLights* [kVA]
+              08:GuestBathHallLights* [kVA]
+              09:DiningRoomOutlets* [kVA]
+              10:OutsideOutlets* [kVA]
+              11:CellarLights* [kVA]
+              14:WashingMachine* [kVA]
+              16:DisposalDishwasher* [kVA]
+              17:Microwave* [kVA]
+              18:KitchenLights* [kVA]
+              19:BedroomOutlets* [kVA]
+              20:BedroomLights* [kVA]
+              21:MasterOutlets* [kVA]
+              22:MasterLights* [kVA]
+              24:CounterOutlets1* [kVA]
+              25:CounterOutlets2* [kVA]
+              26:KitchenOutlets* [kVA]
+Ignored:
+              Instance_number
+              Day
+               Time
+               Date & Time
+              use [kW]
+              01:Grid* [kVA]
+Test mode:evaluate on training data
+
+=== Model and evaluation on training set ===
+
+MakeDensityBasedClusterer: 
+
+Wrapped clusterer: Number of merges: 170
+Number of splits: 120
+Number of clusters: 65
+
+node 0 [60479]
+|   leaf 1 [41762]
+node 0 [60479]
+|   node 2 [18717]
+|   |   node 3 [18391]
+|   |   |   leaf 4 [11177]
+|   |   node 3 [18391]
+|   |   |   leaf 5 [7214]
+|   node 2 [18717]
+|   |   node 6 [326]
+|   |   |   node 7 [292]
+|   |   |   |   leaf 8 [69]
+|   |   |   node 7 [292]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 10 [1]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 11 [1]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 12 [1]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 13 [2]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 14 [2]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 15 [1]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 16 [1]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 17 [1]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 18 [1]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 19 [3]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 20 [10]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 21 [148]
+|   |   |   |   node 9 [187]
+|   |   |   |   |   leaf 22 [15]
+|   |   |   node 7 [292]
+|   |   |   |   node 23 [36]
+|   |   |   |   |   leaf 24 [33]
+|   |   |   |   node 23 [36]
+|   |   |   |   |   leaf 25 [1]
+|   |   |   |   node 23 [36]
+|   |   |   |   |   leaf 26 [1]
+|   |   |   |   node 23 [36]
+|   |   |   |   |   leaf 27 [1]
+|   |   node 6 [326]
+|   |   |   node 28 [34]
+|   |   |   |   leaf 29 [1]
+|   |   |   node 28 [34]
+|   |   |   |   leaf 30 [1]
+|   |   |   node 28 [34]
+|   |   |   |   node 31 [12]
+|   |   |   |   |   leaf 32 [1]
+|   |   |   |   node 31 [12]
+|   |   |   |   |   leaf 33 [1]
+|   |   |   |   node 31 [12]
+|   |   |   |   |   leaf 34 [1]
+|   |   |   |   node 31 [12]
+|   |   |   |   |   leaf 35 [1]
+|   |   |   |   node 31 [12]
+|   |   |   |   |   leaf 36 [1]
+|   |   |   |   node 31 [12]
+|   |   |   |   |   leaf 37 [1]
+|   |   |   |   node 31 [12]
+|   |   |   |   |   leaf 38 [2]
+|   |   |   |   node 31 [12]
+|   |   |   |   |   leaf 39 [1]
+|   |   |   |   node 31 [12]
+|   |   |   |   |   leaf 40 [1]
+|   |   |   |   node 31 [12]
+|   |   |   |   |   leaf 41 [1]
+|   |   |   |   node 31 [12]
+|   |   |   |   |   leaf 42 [1]
+|   |   |   node 28 [34]
+|   |   |   |   node 43 [20]
+|   |   |   |   |   node 44 [2]
+|   |   |   |   |   |   leaf 45 [1]
+|   |   |   |   |   node 44 [2]
+|   |   |   |   |   |   leaf 46 [1]
+|   |   |   |   node 43 [20]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 48 [1]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   node 49 [2]
+|   |   |   |   |   |   |   leaf 50 [1]
+|   |   |   |   |   |   node 49 [2]
+|   |   |   |   |   |   |   leaf 51 [1]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 52 [1]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 53 [1]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 54 [1]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 55 [1]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 56 [1]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 57 [1]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 58 [1]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 59 [2]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 60 [1]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 61 [2]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 62 [1]
+|   |   |   |   |   node 47 [17]
+|   |   |   |   |   |   leaf 63 [1]
+|   |   |   |   node 43 [20]
+|   |   |   |   |   leaf 64 [1]
+
+
+Fitted estimators (with ML estimates of variance):
+
+Cluster: 0 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 1 Prior probability: 0.7403
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0.0663 StdDev = 0.3096
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0.0229 StdDev = 0.1495
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0.3649 StdDev = 0.4814
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0.0001 StdDev = 0.0094
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0.0009 StdDev = 0.0306
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0.0797 StdDev = 0.2708
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0.0365 StdDev = 0.1876
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0.1371 StdDev = 0.3439
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0.018 StdDev = 0.133
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0.0374 StdDev = 0.1898
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0.0416 StdDev = 0.1996
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0.0041 StdDev = 0.0639
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0.1903 StdDev = 0.3926
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0.7703 StdDev = 0.4206
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0.0692 StdDev = 0.2537
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0.7095 StdDev = 0.454
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0.0424 StdDev = 0.2014
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0.018 StdDev = 0.1329
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0.0361 StdDev = 0.1864
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0.0144 StdDev = 0.119
+
+Cluster: 2 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 3 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 4 Prior probability: 0.1734
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0.2281 StdDev = 0.9476
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0.0079 StdDev = 0.0886
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0.5038 StdDev = 0.5
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0.001 StdDev = 0.0308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0.001 StdDev = 0.0308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0.1196 StdDev = 0.3245
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0.0607 StdDev = 0.2387
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0.1585 StdDev = 0.3652
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0.0189 StdDev = 0.136
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0.0377 StdDev = 0.1905
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0.0426 StdDev = 0.2019
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0.0029 StdDev = 0.0534
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0.1722 StdDev = 0.3775
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0.0343 StdDev = 0.182
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0.0617 StdDev = 0.2406
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0.9867 StdDev = 0.1147
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0.0703 StdDev = 0.2556
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0.0172 StdDev = 0.1302
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0.0321 StdDev = 0.1763
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0.015 StdDev = 0.1214
+
+Cluster: 5 Prior probability: 0.0829
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0.0787 StdDev = 0.4056
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0.0072 StdDev = 0.0844
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0.9938 StdDev = 0.0784
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0.0012 StdDev = 0.0346
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0293
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0.1964 StdDev = 0.3973
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0.0911 StdDev = 0.2878
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0.0488 StdDev = 0.2155
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0.059 StdDev = 0.2356
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0.0486 StdDev = 0.2151
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0.0032 StdDev = 0.0564
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0.0092 StdDev = 0.0953
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0.3666 StdDev = 0.4819
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0.0167 StdDev = 0.1283
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0.0889 StdDev = 0.2846
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0.0152 StdDev = 0.1222
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0.0724 StdDev = 0.2591
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0.0411 StdDev = 0.1984
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0.1015 StdDev = 0.302
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0.0058 StdDev = 0.0758
+
+Cluster: 6 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 7 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 8 Prior probability: 0.0005
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 4.9566 StdDev = 0.2103
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1363
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4967
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0182
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0293
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0.3571 StdDev = 0.4792
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0.0357 StdDev = 0.1856
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0.2143 StdDev = 0.4103
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0.0714 StdDev = 0.2575
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.1936
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1933
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0.0714 StdDev = 0.2575
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0.7857 StdDev = 0.4103
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4935
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0.0714 StdDev = 0.2575
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.458
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.2176
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0.0357 StdDev = 0.1856
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1979
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1168
+
+Cluster: 9 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 10 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 11 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 12 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 13 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 14 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 15 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 16 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 17 Prior probability: 0.0001
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 3.9913 StdDev = 0.0123
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1363
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4967
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0182
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0293
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.295
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.208
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.34
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1455
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1936
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1933
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0658
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4018
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4935
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.2545
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.458
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.2176
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1393
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1979
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1168
+
+Cluster: 18 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 19 Prior probability: 0.0001
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 5.152 StdDev = 0.0073
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1363
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4967
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0182
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0293
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.295
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.208
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.34
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1455
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1936
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1933
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0658
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4018
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4935
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.2545
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.458
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.2176
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.1393
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1979
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1168
+
+Cluster: 20 Prior probability: 0.0001
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 4.7885 StdDev = 0.3133
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1363
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4967
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0182
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0293
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.295
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0.5 StdDev = 0.5
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.34
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0.25 StdDev = 0.433
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1936
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1933
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0.25 StdDev = 0.433
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0.75 StdDev = 0.433
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4935
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.2545
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.458
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.2176
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1393
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0.25 StdDev = 0.433
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1168
+
+Cluster: 21 Prior probability: 0.0003
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 4.9039 StdDev = 0.2848
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1363
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4967
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0182
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0293
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.295
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0.0625 StdDev = 0.2421
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0.4375 StdDev = 0.4961
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0.1875 StdDev = 0.3903
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0.5625 StdDev = 0.4961
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0.0625 StdDev = 0.2421
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0658
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.4018
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4935
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0.125 StdDev = 0.3307
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.458
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.2176
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1393
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0.1875 StdDev = 0.3903
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1168
+
+Cluster: 22 Prior probability: 0.0012
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 4.8462 StdDev = 0.3855
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1363
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4967
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0182
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0293
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.295
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0.0704 StdDev = 0.2559
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.34
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0.0282 StdDev = 0.1655
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1936
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0.2958 StdDev = 0.4564
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0658
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0.4507 StdDev = 0.4976
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4935
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0.0845 StdDev = 0.2781
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.458
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0.1127 StdDev = 0.3162
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1393
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0.0423 StdDev = 0.2012
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0.0845 StdDev = 0.2781
+
+Cluster: 23 Prior probability: 0.0002
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 3.6241 StdDev = 0.1303
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0.0833 StdDev = 0.2764
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4967
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0182
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0293
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.295
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0.0833 StdDev = 0.2764
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.34
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1455
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0.1667 StdDev = 0.3727
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0.0833 StdDev = 0.2764
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0658
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.4018
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4935
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0.0833 StdDev = 0.2764
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.458
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.2176
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1393
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1979
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1168
+
+Cluster: 24 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 25 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 3.4263 StdDev = 0.5432
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1363
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4967
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0182
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0293
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.295
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.208
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.34
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1455
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1936
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.1933
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0658
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.4018
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4935
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.2545
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.458
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.2176
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1393
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1979
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1168
+
+Cluster: 26 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 27 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 28 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 29 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 30 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 31 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 32 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 33 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 34 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 35 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 36 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 37 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 38 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 39 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 40 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 41 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 42 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 43 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 44 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 45 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 46 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 47 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 3.3128 StdDev = 0.0244
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1363
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4967
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0182
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0293
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.295
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.208
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.34
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1455
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0.5 StdDev = 0.5
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1933
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0658
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.4018
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4935
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0.5 StdDev = 0.5
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.458
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0.5 StdDev = 0.5
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1393
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1979
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1168
+
+Cluster: 48 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 49 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 50 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 51 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 52 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 53 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 54 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 55 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 56 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 57 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 58 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 59 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 60 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 3.2963 StdDev = 0.5432
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1363
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4967
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0182
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0293
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.295
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.208
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.34
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1455
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1936
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1933
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.0658
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.4018
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.4935
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.2545
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 1 StdDev = 0.458
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.2176
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1393
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1979
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 0.1168
+
+Cluster: 61 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 62 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 63 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+Cluster: 64 Prior probability: 0
+
+Attribute: 02:Dryer* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 03:OfficeOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 04:LivingRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 05:GuestBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 06:MasterBathOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 07:LivingRoomPatioLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 08:GuestBathHallLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 09:DiningRoomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 10:OutsideOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 11:CellarLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 14:WashingMachine* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 16:DisposalDishwasher* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 17:Microwave* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 18:KitchenLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 19:BedroomOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 20:BedroomLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 21:MasterOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 22:MasterLights* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 24:CounterOutlets1* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 25:CounterOutlets2* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+Attribute: 26:KitchenOutlets* [kVA]
+Normal Distribution. Mean = 0 StdDev = 1.7976931348623157E308
+
+
+Time taken to build model (full training data) : 424.23 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+ 1      44052 ( 73%)
+ 4       9921 ( 16%)
+ 5       5092 (  8%)
+ 8         95 (  0%)
+17         10 (  0%)
+19          4 (  0%)
+20         40 (  0%)
+21        178 (  0%)
+22        199 (  0%)
+23        108 (  0%)
+25         75 (  0%)
+47         23 (  0%)
+60        682 (  1%)
+
+
+Log likelihood: 20.61817
+
