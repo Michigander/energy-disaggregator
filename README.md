@@ -1,7 +1,7 @@
 # Hierarchical Classifier for Energy Disaggregation
 ----
-##### This repository represents independent work done as _Research Fellow_ at **Williams College**.     
-##### Project Experience Included : 
+#### This repository represents independent work done as _Research Fellow_ at **Williams College**.     
+#### Project Experience Included : 
   * Designing an original machine learning algorithm to learn individual circuit use from aggregate data with _80%_ accuracy
   * Collecting, cleaning, and formatting large sets of electrical data in *.csv* format
   * Hands on with a 'Full Stack' machine learning solution - _data collection, cloud storage, data cleaning, algorithm design, training, and testing_ 
