@@ -1,6 +1,10 @@
-# Energy Disaggregator 
-
-### This repository represents work done as Research Fellow at Williams College investigating the fascinating problem of Energy Disaggregation. 
+# Hierarchical Classifier for Energy Disaggregation
+----
+##### This repository represents independent work done as _Research Fellow_ at **Williams College**.     
+##### Project Experience Included : 
+  * Designing an original machine learning algorithm to learn individual circuit use from aggregate data with _80%_ accuracy
+  * Collecting, cleaning, and formatting large sets of electrical data in *.csv* format
+  * Hands on with a 'Full Stack' machine learning solution - _data collection, cloud storage, data cleaning, algorithm design, training, and testing_ 
 
 ## Motivation: 
 
@@ -8,7 +12,7 @@ A sustainable home depends upon intelligent decisions at the individual applianc
 
 In other words, a home's energy usage over time is a function of its appliances, systems, and devices. In order to make a home energy efficient, one must optimize this function. Such an optimization takes many interesting forms - scheduling of HVAC systems, load curtailment based upon occupancy detection, etc. - but *each* requires knowledge of the level, and combination, of individual energy loads over time.  
 
-## Approach 
+## Approach:
 
 The system represents a machine learning approach to solving the problem. In particular, we became interested in investigating the theory behind decision trees and the potential of leveraging the data at each node to train an individual classifier.
 
@@ -16,10 +20,10 @@ We use two different datasets of individual circuit data - a single home in a pr
 
 We train two layers of J48 decision tree algorithms: the root classifier being trained on all examples, and the second level being classifiers trained on instances correctly classified as class A by the root classifier, and instances of class B incorrectly classified as class A by the root classifier. In this way we create a final classifier which is a "tree of decision trees", classifying instances by first testing at the root classifier and then at the corresponding second level classifier. The second level classifiers represent an error checking mechanism - reducing the number of false positive classifications.   
 
-## Data
+## Data:
 The system leverages labeled data ( at 5 second intervals) from 21 circuits in Professor Jeannie Albrecht's Massachusetts home. The data is gathered from 6 weeks published to eGauge cloud monitoring system. We format 6 weeks of energy usage data from 21 circuits in a single residential home by transforming raw wattage (kW) to a binary - on/off - label. Then, we experiment with a variety of clustering algorithms to reduce the number of classes from 21^2 to around 12 of the most common and accurate classes. The amount of formatting needed by data in this raw state was a great learning experience - a great portion of the work in designing a general, robust machine learning system seems to be in ensuring the data represent the problem one is trying to solve. 
 
-## Timeline 
+## Project Timeline:
 
 ### Phase 1 : Proof-of-Concept "home"
 
@@ -29,7 +33,7 @@ Train on a single home, test on the same home.
 
 Train on a neighborhood of homes, test on a separate (but similar in profile) home.
 
-## Code 
+## Code: 
 
 ### Data Formatting 
 This was my first attempt at designing a machine learning system, and the biggest learning curve was certainly in formatting the data. The result of trimming, formatting field values, and splitting into training and test sets is a series of (often hardcoded and ugly) awk scripts. Lately, I have been pursuing more general, python based, data formatting schemes.
@@ -57,4 +61,4 @@ This was my first attempt at designing a machine learning system, and the bigges
 ### Classifier 
 Generalizing to multiple homes also brought abstracting the classifier tree process into a Java implementation. The WEKA open source library provides J48 decision tree algorithms which we dynamically generate, train via the process described in our **Approach** section. 
 
-The classifier generation algorithm is implemented by 'HierarchicalDisaggregator.java'. The input is a training dataset and a parameter for tree depth - the output is a tree of classifiers of the specified depth. The algorithm is recursive to allow for experimentation with multi-level classifier trees. In fact, such generation need not be linear and static, but perhaps be logistic, or dynamic in the same way that our own brain grows and exhibits neuro-plasticity 
+The classifier generation algorithm is implemented by *HierarchicalDisaggregator.java*. The input is a training dataset and a parameter for tree depth - the output is a tree of classifiers of the specified depth. The algorithm is recursive to allow for experimentation with multi-level classifier trees. In fact, such generation need not be linear and static, but perhaps be logistic, or dynamic in the same way that our own brain grows and exhibits neuro-plasticity 
